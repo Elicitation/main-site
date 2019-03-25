@@ -1,0 +1,22 @@
+:host {
+  display: block; }
+  :host,
+  :host *,
+  :host *::before,
+  :host *::after {
+    box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+:host(.row) {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+:host(.no-gutters) {
+  margin-right: 0;
+  margin-left: 0; }

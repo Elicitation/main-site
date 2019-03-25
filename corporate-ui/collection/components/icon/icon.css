@@ -1,0 +1,8 @@
+:host {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1; }
+  :host .icon {
+    height: 1em;
+    width: 1em;
+    fill: currentColor; }

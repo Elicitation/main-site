@@ -37,7 +37,7 @@ export class Footer {
                                 h("span", null, item['text'])))),
                             h("slot", { name: "items" }))),
                     this.items || this.itemsSlot ?
-                        h("button", { class: 'navbar-toggler collapsed btn btn-link dropdown-toggle', type: 'button', onClick: () => this.show = !this.show }, "Scania")
+                        h("button", { class: 'navbar-toggler collapsed btn btn-link dropdown-toggle', type: 'button', onClick: () => this.show = !this.show }, "Elicitation")
                         : ''),
                 h("p", { "data-test-id": 'c-footer-copyright' }, "Copyright \u00A9 Elicitation 2019"))
         ];

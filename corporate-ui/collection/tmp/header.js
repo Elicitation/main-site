@@ -86,9 +86,9 @@ c-navigation {
       background-image: url("/logotype/elicitation-logotype.png");
       background-image: url("/logotype/elicitation-logotype.svg");
       background-repeat: no-repeat;
-      background-size: cover;
-      width: 170px;
-      height: 28px; }
+      background-size: 200px 30px;
+      width: 200px;
+      height: 30px; }
   .navbar-default .navbar-title {
     font-family: 'Teko';
     font-weight: normal;

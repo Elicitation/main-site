@@ -93,9 +93,9 @@ c-navigation {
       background-image: url("/logotype/elicitation-logotype.png");
       background-image: url("/logotype/elicitation-logotype.svg");
       background-repeat: no-repeat;
-      background-size: cover;
-      width: 170px;
-      height: 28px; }
+      background-size: 200px 30px;
+      width: 200px;
+      height: 30px; }
   .navbar .navbar-title {
     font-family: 'Teko';
     font-weight: normal;
@@ -116,6 +116,7 @@ c-navigation {
     margin-top: -10px; }
 
 .navbar-symbol {
+  display: none;
   padding: 13px;
   border-left: 1px solid #e2e2e2;
   border-bottom: 1px solid #e2e2e2;
@@ -147,6 +148,7 @@ c-navigation {
     background-color: transparent;
     border-top: 1px solid #e2e2e2; }
   .navbar-default {
+    height: 68px;
     padding: 19px 11px 10px;
     margin-right: 20px;
     border-bottom: 0; }
@@ -158,6 +160,7 @@ c-navigation {
       border-left: 1px solid #e2e2e2;
       padding-left: 15px; }
   .navbar-symbol {
+    display: none;
     position: sticky;
     top: 0;
     margin-top: 8px;

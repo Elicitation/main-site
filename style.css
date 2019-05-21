@@ -1,0 +1,12 @@
+.svg-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+.logotype {
+margin: 0 auto;
+max-width: 1320px;
+flex-grow:1;
+margin: 1.5rem;
+}

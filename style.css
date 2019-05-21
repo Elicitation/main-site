@@ -1,12 +1,17 @@
+body {
+    background-color: #000000;
+}
+
+
 .svg-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-flow: column;
     height: 100vh;
   }
 .logotype {
-margin: 0 auto;
-max-width: 1320px;
-flex-grow:1;
-margin: 1.5rem;
+    flex:1;
+    width: 35vw;
+  
 }

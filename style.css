@@ -12,6 +12,36 @@ body {
   }
 .logotype {
     flex:1;
-    width: 35vw;
+    width: 45vw;
   
 }
+
+@media (min-width: 576px) { 
+    .logotype {
+        flex:1;
+        width: 40vw;
+      
+    }
+}
+@media (min-width: 768px) { 
+    .logotype {
+        flex:1;
+        width: 35vw;
+      
+    }
+ }
+ @media (min-width: 992px) { 
+    .logotype {
+        flex:1;
+        width: 30vw;
+      
+    }
+ }
+ 
+ @media (min-width: 1200px) { 
+    .logotype {
+        flex:1;
+        width: 25vw;
+      
+    }
+  }
